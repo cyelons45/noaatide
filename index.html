@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400,400i,700,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="jquerystyle.css">
+    <link rel="stylesheet" href="queries.css">
+
+    <title>Weather API</title>
+</head>
+
+<body>
+    <section class="section__main">
+
+
+        <div class="mini__page js__mini__page">
+
+            <div class="mini__page__content">
+                <header class="main__header">
+                    <div class="header__box">
+                        <div class="logo">
+                            <a href="https://www.scdhec.gov/environment/environmental-data-maps-reports/gis-apps-data" target="_blank" class="logo-link">
+                                <img src="logo_white.png" alt="dhec_logo" class="logo-white">
+
+                            </a>
+
+                        </div>
+                        <div class="title">NOAA TiDE <span>Predictions</span></div>
+                        <div class="close_button">
+                            <div class="close">&times;</div>
+                        </div>
+                        <!-- <a href="window.close()" class="close_button">
+                            <div class="close">&times;</div>
+                        </a> -->
+
+
+                    </div>
+
+
+
+                </header>
+
+                <form method="post" id="form">
+                    <div class="form__group">
+                        <div class="label__box">
+                            <label for="start_date" class="form__label">Start Date</label>
+                        </div>
+
+                        <input type="text" class="form__input input_1" placeholder="Enter start date" id="start_date" autocomplete="off" required>
+
+
+                    </div>
+
+                    <div class="form__group">
+                        <div class="label__box">
+                            <label for="end_date" class="form__label">End Date</label>
+                        </div>
+                        <input type="text" class="form__input input_2" placeholder="Enter end date" id="end_date" autocomplete="off" required>
+
+
+                    </div>
+
+                    <div class="download__data"></div>
+
+                    <div class="botton__box">
+                        <button type="submit" class="submit__botton">Submit</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+
+            <div class="panel__right--text">
+
+                <h3>STATION INFO</h3>
+                <div class="text">
+                    <p>NOAA/NOS/CO-OPS</p>
+                    <p>Annual Tide Predictions</p>
+                    <p>Station Name:<span>Charleston, Cooper River Entrance</span></p>
+                    <p>State: <span>SC </span> </p>
+                    <p>Station Id: <span>8665530</span> </p>
+                    <p>Prediction Type: <span>Harmonic</span></p>
+                    <p>Units: <span>Feet</span> </p>
+                    <p>Time Zone: <span>LST_LDT</span> </p>
+                    <p>Datum: <span> MLLW</span></p>
+                    <p>Interval Type: <span>High/Low</span></p>
+
+                </div>
+
+
+                <h4>Times and Heights of High and Low Waters</h4>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="bg-video">
+            <video class="bg-video__content" autoplay muted loop>
+           <source src="videos/video.mp4" type="video/mp4">
+            <source src="videos/video.webm" type="video/webm">
+                Your browser is not supported!
+        </video>
+
+
+        </div>
+
+
+
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="jqueryscript.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

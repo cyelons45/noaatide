@@ -1,0 +1,178 @@
+@media only screen and (min-width: 1501px) and (max-width: 2000px) {
+    .mini__page {
+        width: 50%;
+        height: 50vh;
+        min-width: 50rem;
+    }
+    .ui-datepicker {
+        width: 11rem;
+        padding: .2em .2em 0;
+        display: none;
+    }
+    .title {
+        margin-left: 12.5rem;
+        padding-top: 1rem;
+        color: #fff;
+        font-size: 1.0rem;
+        letter-spacing: 3px;
+    }
+    .title span {
+        font-size: 0.6rem;
+        letter-spacing: 3px;
+    }
+    .panel__right--text {
+        width: 40%;
+        height: 60%;
+        font-size: 0.7rem;
+        line-height: 1.0rem;
+    }
+    .text {
+        padding-top: 0.7rem;
+    }
+    .text span {
+        font-size: 0.7rem;
+        letter-spacing: 1.5px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .mini__page {
+        width: 70%;
+        height: 50vh;
+        min-width: 50rem;
+    }
+    .ui-datepicker {
+        width: 11rem;
+        padding: .2em .2em 0;
+        display: none;
+    }
+    .title {
+        margin-left: 12.5rem;
+        padding-top: 1rem;
+        color: #fff;
+        font-size: 0.9rem;
+        letter-spacing: 3px;
+    }
+    .title span {
+        font-size: 0.5rem;
+        letter-spacing: 3px;
+    }
+    .panel__right--text {
+        width: 40%;
+        height: 60%;
+        font-size: 0.7rem;
+        line-height: 1.0rem;
+    }
+    .text {
+        padding-top: 0.5rem;
+    }
+    .text span {
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1199px) {
+    .mini__page {
+        width: 75%;
+        height: 50vh;
+        min-width: 40rem;
+    }
+    .ui-datepicker {
+        width: 10rem;
+        padding: .2em .2em 0;
+        display: none;
+    }
+    .title {
+        margin-left: 10.5rem;
+        padding-top: 1rem;
+        color: #fff;
+        font-size: 0.9rem;
+        letter-spacing: 3px;
+    }
+    .title span {
+        font-size: 0.5rem;
+        letter-spacing: 3px;
+    }
+    .text {
+        padding-top: 0.4rem;
+    }
+    .text span {
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+    }
+    .panel__right--text {
+        width: 40%;
+        height: 60%;
+        font-size: 0.5rem;
+        line-height: 1.0rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1029px) {
+    .mini__page {
+        width: 80%;
+        height: 50vh;
+        min-width: 40rem;
+    }
+    .ui-datepicker {
+        width: 10rem;
+        padding: .2em .2em 0;
+        display: none;
+    }
+    .title {
+        margin-left: 8.5rem;
+        padding-top: 1rem;
+        color: #fff;
+        font-size: 0.9rem;
+        letter-spacing: 3px;
+    }
+    .title span {
+        font-size: 0.5rem;
+        letter-spacing: 3px;
+    }
+    .panel__right--text {
+        width: 40%;
+        height: 60%;
+        font-size: 0.5rem;
+        line-height: 1.0rem;
+    }
+    .text span {
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (min-width: 8px) and (max-width: 767px) {
+    .mini__page {
+        width: 80%;
+        height: 50vh;
+        min-width: 35rem;
+    }
+    .ui-datepicker {
+        width: 9.5rem;
+        padding: .2em .2em 0;
+        display: none;
+    }
+    .title {
+        margin-left: 7.5rem;
+        padding-top: 1rem;
+        color: #fff;
+        font-size: 0.8rem;
+        letter-spacing: 3px;
+    }
+    .title span {
+        font-size: 0.4rem;
+        letter-spacing: 3px;
+    }
+    .panel__right--text {
+        width: 40%;
+        height: 60%;
+        font-size: 0.5rem;
+        line-height: 1.0rem;
+    }
+    .text span {
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+    }
+}
